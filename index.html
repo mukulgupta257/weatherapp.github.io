@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather application</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="container">
+        <div id="card">
+            <div id="blacklayer"></div>
+            <div id="info">
+                <span>Search city to fetch weather info</span>
+            </div>
+            <div id="searchbox">
+                <input id="cityname" type="text" minlength="3" maxlength="20">
+                <img src="./media/search.svg" id="search"/>
+            </div>
+            <div id="weatherDetails">
+                <div id="left"></div>
+                <div id="right">
+                    <span id="location">Location :</span>
+                    <span id="temp">Temperature :</span>
+                    <span id="feelslike">Feels like :</span>
+                    <span id="min_temp">Min temp :</span>
+                    <span id="max_temp">Max temp:</span>
+                    <span id="speed_wind">Wind speed :</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
